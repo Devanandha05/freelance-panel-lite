@@ -5,18 +5,18 @@ export const summaryData = [
     title: "Total Earnings",
     value: "$12,450",
     icon: <FaDollarSign />,
-    bg: "bg-warning dark:bg-[#A38C58]",
+    bg: "bg-warning",
   },
   {
     title: "Pending Invoices",
     value: "3",
     icon: <FaFileInvoice />,
-    bg: "bg-cardpink dark:bg-[#44335d]",
+    bg: "bg-cardpink",
   },
   {
     title: "Active Clients",
     value: "7",
     icon: <FaUserFriends />,
-    bg: "bg-cardblue dark:bg-[#B86655]",
+    bg: "bg-cardblue",
   },
 ];

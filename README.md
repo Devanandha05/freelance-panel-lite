@@ -1,32 +1,17 @@
-# 🚀 FreelancePanel — React Dashboard Template
+# 📊 FreelancePanel Lite – Minimal React Dashboard UI
 
-A clean, modern, and fully responsive **Dashboard UI Kit** built with **React + Tailwind CSS**.  
-Designed for freelancers, developers, and creators who want a sleek and functional admin panel UI.
-
-![Dashlance Preview](preview.png)
+A lightweight and elegant **React + Tailwind CSS** dashboard UI — perfect as a base for admin panels, analytics interfaces, or freelance dashboards. This public version includes only the essential components and pages to get started quickly.
 
 ---
 
-## 🧩 Features
+## ✨ What's Inside
 
-- ⚡️ Built with React + Tailwind CSS
-- 🌙 Dark mode included
-- 📱 Fully responsive (mobile-first)
-- 📊 Pages: Dashboard, Analytics, Invoices, Clients, Settings, Support & more
-- 🔐 Auth screens (Login/Register)
-- 💾 Clean project structure & reusable components
-- 🎨 Easy theming and brand customization
-
----
-
-## 🔧 Tech Stack
-
-- React 19
-- Tailwind CSS 3
-- Framer Motion (for smooth animations)
-- React Router DOM v7
-- Lucide React Icons
-- Recharts
+- ⚛️ React (with Vite for fast builds)
+- 🎨 Tailwind CSS for styling
+- 📊 Recharts for data visualization
+- ✅ Minimal folder structure
+- 🧱 Reusable components
+- 📱 Responsive layout (desktop & mobile)
 
 ---
 
@@ -39,69 +24,52 @@ src/
 │
 ├── assets/ # Logos, images, illustrations
 │
-├── components/ # UI components
+├── components/ # Reusable UI parts
 │ ├── Sidebar.jsx
-│ ├── ThemeToggle.jsx
 │ ├── RevenueChart.jsx
 │ └── SummaryCard.jsx
 │
-├── data/ # Sample static data
+├── data/ # Static chart/sample data
 │ └── summaryData.jsx
 │
-├── layouts/ # Shared layout components
+├── layouts/ # App layout
 │ └── DashboardLayout.jsx
 │
-└── pages/ # Route-based views
+└── pages/ # Page routes
 ├── Overview.jsx
-├── Invoices.jsx
-├── Clients.jsx
-├── Analytics.jsx
-├── Profile.jsx
 ├── Settings.jsx
-├── Support.jsx
-└── auth/
-├── Login.jsx
-└── Register.jsx
-
----
+└── Support.jsx
 
 ## 🚀 Getting Started
 
-### 1. Clone or Download the Project
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Devanandha05/freelance-panel.git
-cd freelance-panel
+git clone https://github.com/Devanandha05/freelancepanel-lite.git
+cd freelancepanel-lite
 
+2. Install dependencies
 npm install
+
+3. Start the development server
 npm run dev
 
-💡 Customization Tips
-✨ Change theme colors in tailwind.config.js
+🔓 Want the Full Version?
+Get access to the complete FreelancePanel Dashboard Kit, including:
 
-🔁 Replace logos and illustrations in assets/
+Authentication pages (Login/Register)
 
-⚙️ Connect to your backend: Flask, Express, Firebase, etc.
+Dark mode support
 
-📦 What’s Included
-Source code (React + Tailwind)
+Animated sidebar
 
-dependencies.txt for dependencies list
+More charts, analytics, and UI components
 
-preview.jpg (1920x1080)
+Client & invoice management pages
 
-Setup instructions (setup-instructions.txt)
-
-License file (LICENSE)
+👉 Grab the Full Version on Gumroad — and supercharge your next dashboard project!
 
 📄 License
-This template is for personal or commercial use.
+This lite version is free for personal and educational use.
 
-❌ You may not redistribute or resell this kit as-is
-✅ You may use it in unlimited personal/commercial projects
-
-Full license terms inside LICENSE file.
-
-🛒 Buy FreelancePanel on Gumroad
-You can purchase the full UI kit including source files and preview from my Gumroad page:
-→ gumroad.com/your-product-link
+Created with ❤️ by Devanandha
