@@ -54,21 +54,6 @@ npm install
 3. Start the development server
 npm run dev
 
-🔓 Want the Full Version?
-Get access to the complete FreelancePanel Dashboard Kit, including:
-
-Authentication pages (Login/Register)
-
-Dark mode support
-
-Animated sidebar
-
-More charts, analytics, and UI components
-
-Client & invoice management pages
-
-👉 Grab the Full Version on Gumroad — and supercharge your next dashboard project!
-
 📄 License
 This lite version is free for personal and educational use.
 
