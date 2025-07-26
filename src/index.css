@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary: #2f243a;
+    --primary-hover: #1f1629;
+    --secondary: #f9ddbd;
+    --accent: #db8a74;
+    --accent-hover: #c37964;
+    --background: #c8b8d9;
+    --card-red: #f8beaa;
+    --card-blue:#d7bff3;
+    --card-pink:#f1b6a6;
+    --muted: #6a707c;
+    --success: #D8F3DC;
+    --warning: #f7e9c4;
+
+  }
+  
+  .bg-grad {
+    @apply p-6;
+    background: linear-gradient(225deg, rgb(247, 247, 247) 0%, hsla(0, 0%, 95%, 1) 100%);
+  }
+  
+  .dark .bg-grad {
+    background: linear-gradient(225deg, rgb(26, 26, 32) 0%, rgb(32, 32, 46) 100%);
+  }
+  
+.section{
+    padding: 0 24px;
+    border-radius: 25px;
+}
+
+
+/* Scrollbar base */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track (background of scrollbar) */
+::-webkit-scrollbar-track {
+  background: #060E37; /* Gradient dark background */
+  border-radius: 10px;
+}
+
+/* Thumb (draggable part) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #D2B4FC, #4B32A8); /* Soft neon to primary */
+  border-radius: 10px;
+  box-shadow: 0 0 6px #D2B4FC, 0 0 10px #4B32A8;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #D2B4FC, #221F5D); /* Mauve to card dark */
+  box-shadow: 0 0 10px #D2B4FC, 0 0 18px #221F5D;
+}
+
