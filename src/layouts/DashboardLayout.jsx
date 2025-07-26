@@ -47,11 +47,6 @@ const DashboardLayout = () => {
       <main className={`flex-1 p-6 ${sidebarOpen ? "md:ml-60" : "md:ml-0"}`}>
         <Outlet />
       </main>
-
-      {/* Theme Toggle Button */}
-      <div className="absolute top-4 right-4">
-        <ThemeToggle />
-      </div>
     </div>
   );
 };
