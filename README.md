@@ -67,7 +67,7 @@ More charts, analytics, and UI components
 
 Client & invoice management pages
 
-👉 Grab the Full Version on Gumroad here — https://devananda61.gumroad.com/l/aowey
+👉 Grab the Full Version on Gumroad here — (https://sdvananda.gumroad.com/l/aowey)
  and supercharge your next dashboard project!
 
 📄 License
